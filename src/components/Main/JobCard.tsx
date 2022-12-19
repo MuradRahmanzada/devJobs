@@ -9,7 +9,7 @@ const JobCard: React.FC<JobProps> = ({ job }) => {
     <div className="w-[372px] md:w-[690px] lg:w-[450px] h-60 px-10 bg-white dark:bg-veryDarkBlue shadow-lg rounded-lg cursor-pointer">
       <div>
         <div
-          className="w-10 h-10 relative bottom-5 flex items-center justify-center rounded-xl"
+          className="w-12 h-12 relative bottom-5 flex items-center justify-center rounded-xl"
           style={{ backgroundColor: logoBgColor }}
         >
           <img src={logo} alt="" />
