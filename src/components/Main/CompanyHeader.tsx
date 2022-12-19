@@ -14,7 +14,7 @@ const CompanyHeader: React.FC<IProps> = (props) => {
 
   return (
     <div className="flex flex-col lg:flex-row relative bottom-5 lg:flex items-center w-full h-64 lg:h-36 shadow-lg rounded-lg bg-white dark:bg-veryDarkBlue">
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center lg:h-full">
         <CompanyLogo logoBgColor={logoBgColor} logo={logo} />
       </div>
       <div className="w-full flex-col lg:flex-row md:mb-5 lg:mb-0 text-center lg:text-left lg:flex items-center justify-between lg:px-8">
